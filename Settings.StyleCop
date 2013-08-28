@@ -1,7 +1,10 @@
 <StyleCopSettings Version="105">
   <GlobalSettings>
     <CollectionProperty Name="RecognizedWords">
+      <Value>datasource</Value>
+      <Value>guid</Value>
       <Value>querystring</Value>
+      <Value>seo</Value>
       <Value>sitecore</Value>
     </CollectionProperty>
   </GlobalSettings>
