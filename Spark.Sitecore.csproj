@@ -46,8 +46,9 @@
     <Compile Include="CacheKeyGenerator.cs" />
     <Compile Include="ContextValidator.cs" />
     <Compile Include="DatasourceResolver.cs" />
-    <Compile Include="Data\Items\ItemExtensions.cs" />
-    <Compile Include="Data\Items\SeoNameManager.cs" />
+    <Compile Include="ItemExtensions.cs" />
+    <Compile Include="SeoNameManager.cs" />
+    <Compile Include="LanguageExtensions.cs" />
     <Compile Include="IContextSensitive.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

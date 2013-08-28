@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore.Data.Items
+﻿namespace Spark.Sitecore
 {
 	using System;
 	using System.Diagnostics.CodeAnalysis;
@@ -9,45 +9,45 @@
 
 	using global::Sitecore.Data.Items;
 
-	#region Enums
-	/// <summary>
-	/// Used for specifying options when the SeoNameManager encounters a space " " character.
-	/// </summary>
-	public enum SpaceHandling
-	{
-		/// <summary>
-		/// Replace encountered spaces with the dash "-" character.
-		/// </summary>
-		UseDash,
-
-		/// <summary>
-		/// Remove encountered spaces.
-		/// </summary>
-		Remove
-	}
-
-	/// <summary>
-	/// Used for specifying options when the SeoNameManager encounters mixed-space names.
-	/// </summary>
-	public enum CaseHandling
-	{
-		/// <summary>
-		/// Convert string to lowercase.
-		/// </summary>
-		ForceLowercase,
-
-		/// <summary>
-		/// Leave mixed-casing intact.
-		/// </summary>
-		AsIs
-	}
-	#endregion
-
 	/// <summary>
 	/// Utility class for generating SEO-friendly names for Items.
 	/// </summary>
 	public static class SeoNameManager
 	{
+		#region Enums
+		/// <summary>
+		/// Used for specifying options when the SeoNameManager encounters a space " " character.
+		/// </summary>
+		public enum SpaceHandling
+		{
+			/// <summary>
+			/// Replace encountered spaces with the dash "-" character.
+			/// </summary>
+			UseDash,
+
+			/// <summary>
+			/// Remove encountered spaces.
+			/// </summary>
+			Remove
+		}
+
+		/// <summary>
+		/// Used for specifying options when the SeoNameManager encounters mixed-case names.
+		/// </summary>
+		public enum CaseHandling
+		{
+			/// <summary>
+			/// Convert string to lowercase.
+			/// </summary>
+			ForceLowercase,
+
+			/// <summary>
+			/// Leave mixed-casing intact.
+			/// </summary>
+			AsIs
+		}
+		#endregion
+
 		#region Public Methods
 		/// <summary>
 		/// Creates a replacement Name value for an Item. The replacement Name is returned in the
@@ -94,7 +94,6 @@
 		}
 		#endregion
 
-		#region Helpers
 		/// <summary>
 		/// Actual method where string manipulation takes place.
 		/// </summary>
@@ -124,6 +123,7 @@
 			return forceLowercase == CaseHandling.ForceLowercase ? name.ToLower(CultureInfo.InvariantCulture) : name;
 		}
 
+		#region Helpers
 		/// <summary>
 		/// Checks that no siblings of the target Item will share the proposed name.
 		/// </summary>

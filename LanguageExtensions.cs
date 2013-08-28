@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore.Globalization
+﻿namespace Spark.Sitecore
 {
 	using System.Diagnostics.CodeAnalysis;
 

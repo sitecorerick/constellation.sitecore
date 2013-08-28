@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore.Data.Items
+﻿namespace Spark.Sitecore
 {
 	using System.Collections.Generic;
 	using System.Globalization;
