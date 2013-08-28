@@ -1,6 +1,7 @@
 <StyleCopSettings Version="105">
   <GlobalSettings>
     <CollectionProperty Name="RecognizedWords">
+      <Value>cacheable</Value>
       <Value>datasource</Value>
       <Value>guid</Value>
       <Value>querystring</Value>
