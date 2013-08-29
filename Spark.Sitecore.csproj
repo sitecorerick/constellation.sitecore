@@ -47,7 +47,9 @@
     <Compile Include="ContextValidator.cs" />
     <Compile Include="DatasourceResolver.cs" />
     <Compile Include="ItemExtensions.cs" />
-    <Compile Include="SeoNameManager.cs" />
+    <Compile Include="Pipelines\HttpRequest\HttpRequestProcessor.cs" />
+    <Compile Include="Rules\Actions\RuleAction.cs" />
+    <Compile Include="Rules\Conditions\ItemDerivesFromTemplate.cs" />
     <Compile Include="LanguageExtensions.cs" />
     <Compile Include="IContextSensitive.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
