@@ -56,7 +56,9 @@
     <Compile Include="Links\MediaLinkExpander.cs" />
     <Compile Include="Links\LinkProviderSwitcher.cs" />
     <Compile Include="Pipelines\HttpRequest\HttpRequestProcessor.cs" />
-    <Compile Include="Rules\Actions\CreateYearMonthDayFolderHierarchy.cs" />
+    <Compile Include="Rules\Actions\AddSubcontentFolder.cs" />
+    <Compile Include="Rules\Actions\MoveToAlphabeticalFolder.cs" />
+    <Compile Include="Rules\Actions\MoveToDateFolder.cs" />
     <Compile Include="Rules\Actions\RuleAction.cs" />
     <Compile Include="Rules\Conditions\ItemDerivesFromTemplate.cs" />
     <Compile Include="LanguageExtensions.cs" />
