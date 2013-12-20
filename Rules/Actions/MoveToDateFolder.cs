@@ -108,7 +108,7 @@
 					if (!oldFilePath.Contains(datePath))
 					{
 						folderLevel = this.AdvanceFolderLevel(folderLevel, item);
-						this.MoveItem(theMonth, item, folderLevel);
+						this.MoveItem(theDay, item, folderLevel);
 					}
 				}
 			}
