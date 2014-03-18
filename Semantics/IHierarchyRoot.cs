@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore.Semantics
+﻿namespace Constellation.Sitecore.Semantics
 {
 	public interface IHierarchyRoot
 	{

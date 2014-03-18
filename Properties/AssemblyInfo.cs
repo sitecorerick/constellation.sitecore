@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Spark.Sitecore")]
-[assembly: AssemblyDescription("Basic library extending the ASP.NET Sitecore CMS. A dependency of other Spark.Sitecore libraries.")]
+[assembly: AssemblyTitle("Constellation.Sitecore")]
+[assembly: AssemblyDescription("Basic library extending the ASP.NET Sitecore CMS. A dependency of other Constellation.Sitecore libraries.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Richard J. Cabral")]
-[assembly: AssemblyProduct("Spark.Sitecore")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyProduct("Constellation.Sitecore")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

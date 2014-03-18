@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore.Rules.Conditions
+﻿namespace Constellation.Sitecore.Rules.Conditions
 {
 	using global::Sitecore.Data;
 	using global::Sitecore.Diagnostics;

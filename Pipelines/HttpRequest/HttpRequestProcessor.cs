@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore.Pipelines.HttpRequest
+﻿namespace Constellation.Sitecore.Pipelines.HttpRequest
 {
 	using System.Diagnostics.CodeAnalysis;
 	using System.Web;

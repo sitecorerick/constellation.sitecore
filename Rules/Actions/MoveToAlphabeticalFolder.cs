@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore.Rules.Actions
+﻿namespace Constellation.Sitecore.Rules.Actions
 {
 	using global::Sitecore.Data;
 	using global::Sitecore.Data.Items;

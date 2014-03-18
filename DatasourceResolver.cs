@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore
+﻿namespace Constellation.Sitecore
 {
 	using System;
 	using System.Text;

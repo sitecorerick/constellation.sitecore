@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore.Rules.Actions
+﻿namespace Constellation.Sitecore.Rules.Actions
 {
 	using System.Collections.Generic;
 	using System.Web;

@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore.Validators
+﻿namespace Constellation.Sitecore.Validators
 {
 	using System;
 	using System.Runtime.Serialization;

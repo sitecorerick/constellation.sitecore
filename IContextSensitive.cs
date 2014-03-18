@@ -1,4 +1,4 @@
-﻿namespace Spark.Sitecore
+﻿namespace Constellation.Sitecore
 {
 	/// <summary>
 	/// Contract specifying the properties required to test whether a given object
