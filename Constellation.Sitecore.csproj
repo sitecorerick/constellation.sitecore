@@ -35,14 +35,8 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContextValidator.cs" />
@@ -61,7 +55,8 @@
     <Compile Include="Validators\SpecificNumberSelectedValidator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Constellation.Sitecore.License.txt" />
+    <Content Include="Instructions\Constellation.Sitecore.Instructions.txt" />
+    <Content Include="License\Constellation.Sitecore.License.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Constellation.Sitecore.nuspec" />

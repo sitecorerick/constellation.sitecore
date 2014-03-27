@@ -19,7 +19,7 @@
 		/// The SiteInfo to interrogate.
 		/// </param>
 		/// <returns>
-		/// The <see cref="ICollection"/> includes the official "language" value for the SiteInfo instance,
+		/// The collection includes the official "language" value for the SiteInfo instance,
 		/// but not the "contentLanguage" value.
 		/// </returns>
 		public static ICollection<string> SupportedLanguages(this SiteInfo siteInfo)

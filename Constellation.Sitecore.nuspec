@@ -22,7 +22,7 @@
 
 		Extensions to Language that make it easier to transition between ISO-codes, Language Items and Globalization.Language objects.
 	</description>
-	<releaseNotes>Initial NuGet release.</releaseNotes>
+	<releaseNotes>Improved NuGet project structure.</releaseNotes>
 	<copyright>Copyright 2014</copyright>
 	<tags>Sitecore</tags>
   </metadata>

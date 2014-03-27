@@ -1,9 +1,8 @@
 ﻿namespace Constellation.Sitecore.Rules.Actions
 {
+	using global::Sitecore.Diagnostics;
 	using System.Collections.Generic;
 	using System.Web;
-
-	using global::Sitecore.Diagnostics;
 
 	/// <summary>
 	/// A basic RuleAction framework that prevents rule recursion.
@@ -19,6 +18,19 @@
 		// ReSharper disable StaticFieldInGenericType
 		private static readonly List<string> InProgress = new List<string>();
 		// ReSharper restore StaticFieldInGenericType
+		#endregion
+
+		#region Constructors
+
+		/// <summary>
+		/// Initializes a new instance of the <see cref="RuleAction{T}"/> class.
+		/// </summary>
+		// ReSharper disable PublicConstructorInAbstractClass
+		public RuleAction()
+		// ReSharper restore PublicConstructorInAbstractClass
+		{
+			this.ContextValidator = new ContextValidator(this);
+		}
 		#endregion
 
 		#region Properties
@@ -146,19 +158,6 @@
 		/// </para>
 		/// </summary>
 		public string SitesToIgnore { get; set; }
-		#endregion
-
-		#region Constructors
-
-		/// <summary>
-		/// Initializes a new instance of the <see cref="RuleAction{T}"/> class.
-		/// </summary>
-		// ReSharper disable PublicConstructorInAbstractClass
-		public RuleAction()
-		// ReSharper restore PublicConstructorInAbstractClass
-		{
-			this.ContextValidator = new ContextValidator(this);
-		}
 		#endregion
 
 		#region Methods

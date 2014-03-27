@@ -18,23 +18,7 @@
 		/// </summary>
 		private ID templateId;
 
-		/// <summary>
-		/// Gets or sets the template id.
-		/// </summary>
-		public ID TemplateId
-		{
-			get
-			{
-				return this.templateId;
-			}
-
-			set
-			{
-				Assert.ArgumentNotNull(value, "value");
-				this.templateId = value;
-			}
-		}
-
+		#region Constructors
 		/// <summary>
 		/// Initializes a new instance of the ItemDerivesFromTemplate class.
 		/// </summary>
@@ -51,6 +35,24 @@
 		{
 			Assert.ArgumentNotNull(templateId, "templateId");
 			this.templateId = templateId;
+		}
+		#endregion
+
+		/// <summary>
+		/// Gets or sets the template id.
+		/// </summary>
+		public ID TemplateId
+		{
+			get
+			{
+				return this.templateId;
+			}
+
+			set
+			{
+				Assert.ArgumentNotNull(value, "value");
+				this.templateId = value;
+			}
 		}
 
 		/// <summary>
