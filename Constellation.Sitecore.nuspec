@@ -22,7 +22,7 @@
 
 		Extensions to Language that make it easier to transition between ISO-codes, Language Items and Globalization.Language objects.
 	</description>
-	<releaseNotes>Improved NuGet project structure.</releaseNotes>
+	<releaseNotes>Version upgrade to match the rest of Constellation.</releaseNotes>
 	<copyright>Copyright 2014</copyright>
 	<tags>Sitecore</tags>
   </metadata>
