@@ -42,6 +42,7 @@
     <Compile Include="ContextValidator.cs" />
     <Compile Include="DatasourceResolver.cs" />
     <Compile Include="ItemExtensions.cs" />
+    <Compile Include="Pipelines\HttpRequest\FileResolver.cs" />
     <Compile Include="Pipelines\HttpRequest\HttpRequestProcessor.cs" />
     <Compile Include="Rules\Actions\AddSubcontentFolder.cs" />
     <Compile Include="Rules\Actions\MoveToAlphabeticalFolder.cs" />
