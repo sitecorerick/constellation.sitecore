@@ -48,7 +48,6 @@
     <Compile Include="Rules\Actions\MoveToAlphabeticalFolder.cs" />
     <Compile Include="Rules\Actions\MoveToDateFolder.cs" />
     <Compile Include="Rules\Actions\RuleAction.cs" />
-    <Compile Include="Rules\Conditions\ItemDerivesFromTemplate.cs" />
     <Compile Include="LanguageExtensions.cs" />
     <Compile Include="IContextSensitive.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
