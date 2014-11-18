@@ -1,8 +1,10 @@
 ﻿namespace Constellation.Sitecore.Rules.Actions
 {
 	using global::Sitecore.Diagnostics;
+	using System;
 	using System.Collections.Generic;
 	using System.Web;
+
 
 	/// <summary>
 	/// A basic RuleAction framework that prevents rule recursion.
@@ -161,6 +163,7 @@
 		#endregion
 
 		#region Methods
+
 		/// <summary>
 		/// The method called by the Rule Engine.
 		/// </summary>
@@ -183,6 +186,10 @@
 			try
 			{
 				this.Execute(ruleContext);
+			}
+			catch (Exception ex)
+			{
+				Log.Error("RuleAction " + this.GetType().Name + " failed.", ex, this);
 			}
 			finally
 			{

@@ -22,7 +22,7 @@
 
 		Extensions to Language that make it easier to transition between ISO-codes, Language Items and Globalization.Language objects.
 	</description>
-	<releaseNotes>Removed ItemDerivesFromTemplate rule, because the one in Constellation.Sitecore.Items is better.</releaseNotes>
+	<releaseNotes>Added error logging to RuleAction.</releaseNotes>
 	<copyright>Copyright 2014</copyright>
 	<tags>Sitecore</tags>
   </metadata>
