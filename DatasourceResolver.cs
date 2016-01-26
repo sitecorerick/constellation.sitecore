@@ -1,11 +1,9 @@
 ﻿namespace Constellation.Sitecore
 {
+	using global::Sitecore.Data;
+	using global::Sitecore.Data.Items;
 	using System;
 	using System.Text;
-
-	using global::Sitecore.Data;
-
-	using global::Sitecore.Data.Items;
 
 	/// <summary>
 	/// Encompasses most of the common developer tasks associated with resolving a datasource string to an Item.
@@ -75,14 +73,21 @@
 			return false;
 		}
 
+
+		public static string EncodeQuery(string query)
+		{
+			return EncodeQuery(query, false);
+		}
+
 		/// <summary>
 		/// Given an absolute XPath, relative XPath, query statement, fast statement, or Guid string, provides appropriate escaping for the target Sitecore API.
 		/// </summary>
 		/// <param name="query">The query to encode.</param>
+		/// <param name="force">Force encoding, even if the statement doesn't contain fast or query</param>
 		/// <returns>A query safe for using in a Database.Select*** or Database.GetItem*** call - Note that the implementer must know which one is the right call.</returns>
-		public static string EncodeQuery(string query)
+		public static string EncodeQuery(string query, bool force)
 		{
-			if (!IsQuery(query))
+			if (!IsQuery(query) && !force)
 			{
 				return query; // it's a guid, no processing required
 			}

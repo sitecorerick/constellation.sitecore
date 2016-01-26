@@ -22,7 +22,7 @@
 
 		Extensions to Language that make it easier to transition between ISO-codes, Language Items and Globalization.Language objects.
 	</description>
-	<releaseNotes>Added error logging to RuleAction.</releaseNotes>
+	<releaseNotes>Small change to Datasource Resolver to allow for force-encoding queries that don't start with query: or fast:</releaseNotes>
 	<copyright>Copyright 2014</copyright>
 	<tags>Sitecore</tags>
   </metadata>
